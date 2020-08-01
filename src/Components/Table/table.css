@@ -1,0 +1,11 @@
+.tableContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.table-content{
+    overflow-x: scroll;
+}
+.table-content::-webkit-scrollbar {
+    display: none;
+}
