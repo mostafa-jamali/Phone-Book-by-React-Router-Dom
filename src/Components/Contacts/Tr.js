@@ -4,7 +4,7 @@ import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import { BrowserRouter as Router, Link } from 'react-router-dom'
 
 
-function Tr({ contacts, setContacts, item }) {
+function Tr({ contacts, setContacts, item, deleteContact }) {
 
     const [deleteModal, setDeleteModal] = useState(false);
     const toggleDelete = () => setDeleteModal(!deleteModal);
@@ -17,7 +17,8 @@ function Tr({ contacts, setContacts, item }) {
         email: ""
     })
     const handleDelete = (id) => {
-        setContacts([...contacts.filter(item => item.id != id)])
+        // setContacts([...contacts.filter(item => item.id != id)])
+        deleteContact(id)
     }
 
     const handleCloseEdit = () => setShow(false);

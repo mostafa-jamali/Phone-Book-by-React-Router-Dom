@@ -12,7 +12,7 @@ import { Link, useHistory } from 'react-router-dom'
 
 
 
-function AddForm({ contacts, setContacts, show, handleClose }) {
+function AddForm({ contacts, setContacts, show, handleClose, addContact }) {
     let history = useHistory();
     const [newObj, setNewObj] = useState({
         name: "",
@@ -68,7 +68,10 @@ function AddForm({ contacts, setContacts, show, handleClose }) {
     }
     const handleAdd = (obj) => {
         let id = contacts.reduce((initial, item) => 1 + Math.max(item.id), 0);
-        setContacts([...contacts, { ...obj, id }]);
+        if (id == 0) {
+            id = 1;
+        }
+        addContact({ ...obj, id })
     }
 
     const handleClear = () => {
