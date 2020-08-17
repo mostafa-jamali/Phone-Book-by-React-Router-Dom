@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Phone-Book-by-React-Router-Dom/precache-manifest.927d7388cb7fd4308e957b82b70c81cd.js"
+  "/Phone-Book-by-React-Router-Dom/precache-manifest.c1df5247cc75a61a5127382515d1e9b0.js"
 );
 
 self.addEventListener('message', (event) => {
