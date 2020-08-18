@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Phone-Book-by-React-Router-Dom/static/css/main.6be825cb.chunk.css",
-    "main.js": "/Phone-Book-by-React-Router-Dom/static/js/main.4e3d5837.chunk.js",
-    "main.js.map": "/Phone-Book-by-React-Router-Dom/static/js/main.4e3d5837.chunk.js.map",
+    "main.css": "/Phone-Book-by-React-Router-Dom/static/css/main.6c2bdd89.chunk.css",
+    "main.js": "/Phone-Book-by-React-Router-Dom/static/js/main.74c0efab.chunk.js",
+    "main.js.map": "/Phone-Book-by-React-Router-Dom/static/js/main.74c0efab.chunk.js.map",
     "runtime-main.js": "/Phone-Book-by-React-Router-Dom/static/js/runtime-main.57ec6c1f.js",
     "runtime-main.js.map": "/Phone-Book-by-React-Router-Dom/static/js/runtime-main.57ec6c1f.js.map",
     "static/css/2.829c9cb5.chunk.css": "/Phone-Book-by-React-Router-Dom/static/css/2.829c9cb5.chunk.css",
-    "static/js/2.3b685dfb.chunk.js": "/Phone-Book-by-React-Router-Dom/static/js/2.3b685dfb.chunk.js",
-    "static/js/2.3b685dfb.chunk.js.map": "/Phone-Book-by-React-Router-Dom/static/js/2.3b685dfb.chunk.js.map",
+    "static/js/2.9c8be65a.chunk.js": "/Phone-Book-by-React-Router-Dom/static/js/2.9c8be65a.chunk.js",
+    "static/js/2.9c8be65a.chunk.js.map": "/Phone-Book-by-React-Router-Dom/static/js/2.9c8be65a.chunk.js.map",
     "index.html": "/Phone-Book-by-React-Router-Dom/index.html",
-    "precache-manifest.c1df5247cc75a61a5127382515d1e9b0.js": "/Phone-Book-by-React-Router-Dom/precache-manifest.c1df5247cc75a61a5127382515d1e9b0.js",
+    "precache-manifest.007e04ad6503ab8ea2b0a63bc24a75cb.js": "/Phone-Book-by-React-Router-Dom/precache-manifest.007e04ad6503ab8ea2b0a63bc24a75cb.js",
     "service-worker.js": "/Phone-Book-by-React-Router-Dom/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/Phone-Book-by-React-Router-Dom/static/css/2.829c9cb5.chunk.css.map",
-    "static/css/main.6be825cb.chunk.css.map": "/Phone-Book-by-React-Router-Dom/static/css/main.6be825cb.chunk.css.map",
-    "static/js/2.3b685dfb.chunk.js.LICENSE.txt": "/Phone-Book-by-React-Router-Dom/static/js/2.3b685dfb.chunk.js.LICENSE.txt"
+    "static/css/main.6c2bdd89.chunk.css.map": "/Phone-Book-by-React-Router-Dom/static/css/main.6c2bdd89.chunk.css.map",
+    "static/js/2.9c8be65a.chunk.js.LICENSE.txt": "/Phone-Book-by-React-Router-Dom/static/js/2.9c8be65a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.57ec6c1f.js",
     "static/css/2.829c9cb5.chunk.css",
-    "static/js/2.3b685dfb.chunk.js",
-    "static/css/main.6be825cb.chunk.css",
-    "static/js/main.4e3d5837.chunk.js"
+    "static/js/2.9c8be65a.chunk.js",
+    "static/css/main.6c2bdd89.chunk.css",
+    "static/js/main.74c0efab.chunk.js"
   ]
 }
