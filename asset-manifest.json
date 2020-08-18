@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/Phone-Book-by-React-Router-Dom/static/css/main.6c2bdd89.chunk.css",
-    "main.js": "/Phone-Book-by-React-Router-Dom/static/js/main.74c0efab.chunk.js",
-    "main.js.map": "/Phone-Book-by-React-Router-Dom/static/js/main.74c0efab.chunk.js.map",
+    "main.js": "/Phone-Book-by-React-Router-Dom/static/js/main.1f62262a.chunk.js",
+    "main.js.map": "/Phone-Book-by-React-Router-Dom/static/js/main.1f62262a.chunk.js.map",
     "runtime-main.js": "/Phone-Book-by-React-Router-Dom/static/js/runtime-main.57ec6c1f.js",
     "runtime-main.js.map": "/Phone-Book-by-React-Router-Dom/static/js/runtime-main.57ec6c1f.js.map",
     "static/css/2.829c9cb5.chunk.css": "/Phone-Book-by-React-Router-Dom/static/css/2.829c9cb5.chunk.css",
-    "static/js/2.9c8be65a.chunk.js": "/Phone-Book-by-React-Router-Dom/static/js/2.9c8be65a.chunk.js",
-    "static/js/2.9c8be65a.chunk.js.map": "/Phone-Book-by-React-Router-Dom/static/js/2.9c8be65a.chunk.js.map",
+    "static/js/2.f931a833.chunk.js": "/Phone-Book-by-React-Router-Dom/static/js/2.f931a833.chunk.js",
+    "static/js/2.f931a833.chunk.js.map": "/Phone-Book-by-React-Router-Dom/static/js/2.f931a833.chunk.js.map",
     "index.html": "/Phone-Book-by-React-Router-Dom/index.html",
-    "precache-manifest.007e04ad6503ab8ea2b0a63bc24a75cb.js": "/Phone-Book-by-React-Router-Dom/precache-manifest.007e04ad6503ab8ea2b0a63bc24a75cb.js",
+    "precache-manifest.69604881f9898c2a06a1782d9c4116f5.js": "/Phone-Book-by-React-Router-Dom/precache-manifest.69604881f9898c2a06a1782d9c4116f5.js",
     "service-worker.js": "/Phone-Book-by-React-Router-Dom/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/Phone-Book-by-React-Router-Dom/static/css/2.829c9cb5.chunk.css.map",
     "static/css/main.6c2bdd89.chunk.css.map": "/Phone-Book-by-React-Router-Dom/static/css/main.6c2bdd89.chunk.css.map",
-    "static/js/2.9c8be65a.chunk.js.LICENSE.txt": "/Phone-Book-by-React-Router-Dom/static/js/2.9c8be65a.chunk.js.LICENSE.txt"
+    "static/js/2.f931a833.chunk.js.LICENSE.txt": "/Phone-Book-by-React-Router-Dom/static/js/2.f931a833.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.57ec6c1f.js",
     "static/css/2.829c9cb5.chunk.css",
-    "static/js/2.9c8be65a.chunk.js",
+    "static/js/2.f931a833.chunk.js",
     "static/css/main.6c2bdd89.chunk.css",
-    "static/js/main.74c0efab.chunk.js"
+    "static/js/main.1f62262a.chunk.js"
   ]
 }
