@@ -3,3 +3,10 @@
     font-size: 0.625em;
     display: relative;
   }
+
+.cardBody{
+  text-align: left;
+}
+.add-form{
+  margin-top: 20%;
+}

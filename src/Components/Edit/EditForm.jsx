@@ -9,8 +9,11 @@ import Button from 'react-bootstrap/Button';
 import { propTypes } from "react-bootstrap/esm/Image";
 import './validationSpan.css'
 import { useHistory, Link } from 'react-router-dom'
+import { connect } from 'react-redux';
+import { editContact } from '../../Redux/Contacts/Contacts.Action';
 
-function EditForm({ contacts, setContacts, show, editObj, setEditObj, handleCloseEdit }) {
+
+function EditForm({ contacts, setContacts, show, editObj, setEditObj, handleCloseEdit, editContact }) {
     const history = useHistory();
     const [errorsEdit, setErrorsEdit] = useState({
         name: "",
@@ -71,17 +74,18 @@ function EditForm({ contacts, setContacts, show, editObj, setEditObj, handleClos
     }
     const handleSubmit = (event) => {
         event.preventDefault();
-        setContacts([...contacts.map((item) => {
-            if ((item.id == editObj.id) && (edit == true)) {
-                item.name = editObj.name;
-                item.lastName = editObj.lastName;
-                item.phone = editObj.phone;
-                item.email = editObj.email;
-                handleClear();
-                handleCloseEdit();
-                return editObj;
-            } else return item;
-        })]);
+        edit == true && editContact(editObj) && handleCloseEdit();
+        // setContacts([...contacts.map((item) => {
+        //     if ((item.id == editObj.id) && (edit == true)) {
+        //         item.name = editObj.name;
+        //         item.lastName = editObj.lastName;
+        //         item.phone = editObj.phone;
+        //         item.email = editObj.email;
+        //         handleClear();
+        //         handleCloseEdit();
+        //         return editObj;
+        //     } else return item;
+        // })]);
         history.push("/phone-book-list")
     }
 
@@ -130,5 +134,9 @@ function EditForm({ contacts, setContacts, show, editObj, setEditObj, handleClos
     );
 
 }
-
-export default EditForm;
+const mapStateToProps = (state) => {
+    return {
+        contacts: state.contacts.contacts_list,
+    }
+}
+export default connect(mapStateToProps, { editContact })(EditForm);

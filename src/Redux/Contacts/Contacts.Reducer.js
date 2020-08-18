@@ -32,8 +32,7 @@ const ContactsReducer = (state = initialState, action) => {
         case "EDIT_CONTACTS":
             return {
                 ...state,
-                contacts_list: state.contacts_list.map(contact => contact.id === payload.id ? payload : contact)
-                // edit_obj: state.contacts_list.filter((contact) => contact.id == payload)[0]
+                contacts_list: state.contacts_list.map(contact => contact.id === payload.id ? payload : contact),
             }
         default:
             return state

@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import Search from '../Search/Search'
 import Tr from '../Contacts/Tr';
-import Editform from '../Add/AddForm';
+import Editform from '../../views/Add/AddForm';
 import '../Table/table.css';
-import AddForm from '../Add/AddForm';
+import AddForm from '../../views/Add/AddForm';
 import { connect } from 'react-redux';
 import { deleteContact } from '../../Redux/Contacts/Contacts.Action';
-import { addContact } from '../../Redux/Contacts/Contacts.Action';
 
 
 function Table({ contacts, deleteContact, addContact }) {
@@ -23,10 +22,7 @@ function Table({ contacts, deleteContact, addContact }) {
 
     // ]);
     const [search, setSearch] = useState("");
-    const [show, setShow] = useState(false);
 
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
     const chengeHandler = (e) => {
         setSearch(e.target.value)
     };
@@ -39,8 +35,7 @@ function Table({ contacts, deleteContact, addContact }) {
     return (
         <>
             <div className="tableContainer ">
-                <Search search={search} setSearch={setSearch} chengeHandler={chengeHandler} handleShow={handleShow} />
-                <AddForm contacts={contacts} show={show} handleClose={handleClose} addContact={addContact} />
+                <Search search={search} setSearch={setSearch} chengeHandler={chengeHandler}  />
                 <div className="table-content table-responsive">
                     <table className="table col-12 table-striped table-hover border">
                         <thead className="thead-dark">
@@ -71,4 +66,4 @@ const mapStateToProps = (state) => {
         contacts: state.contacts.contacts_list,
     }
 }
-export default connect(mapStateToProps, { deleteContact, addContact })(Table);
+export default connect(mapStateToProps, { deleteContact })(Table);
